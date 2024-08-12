@@ -129,7 +129,7 @@ Next i
 
 ' calculate last row for Summary Table
 ' Set values for Summary Table
-SummaryLastRow = Cells(Rows.Count, 9).End(xlUp).Row
+SummaryLastRow = ws.Cells(Rows.Count, 9).End(xlUp).Row
 GreatestPercentIncrease = 0
 GreatestPercentDecrease = 0
 GreatestTotalVolume = 0
