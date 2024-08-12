@@ -45,7 +45,6 @@ LastRow = ws.Cells(Rows.Count, 1).End(xlUp).Row
 QuarterlyChange = 0
 PercentChange = 0
 TotalVolume = 0
-StockQuarterOpen = 0
 StockQuarterClose = 0
 Summary_Table_Row = 2
 StockQuarterOpen = ws.Cells(2, 3).Value
